@@ -3,17 +3,17 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="button_one">Spotify Streamer</string>
-    <string name="button_two">Scores App</string>
-    <string name="button_three">Library App</string>
-    <string name="button_four">Build It Bigger</string>
-    <string name="button_five">XYZ Reader</string>
-    <string name="button_six">Capstone: VRUM</string>
+    <string name="spotify_button">Spotify Streamer</string>
+    <string name="scores_button">Scores App</string>
+    <string name="library_button">Library App</string>
+    <string name="bigger_button">Build It Bigger</string>
+    <string name="reader_button">XYZ Reader</string>
+    <string name="vrum_button">Capstone: VRUM</string>
     <string name="desc_text">My Nanodegree Apps!</string>
-    <string name="ButtonSixToast">This will launch VRUM once it is complete.</string>
-    <string name="ButtonFiveToast">This will launch XYZ READER once it is complete.</string>
-    <string name="ButtonFourToast">This will launch BUILD IT BIGGER once it is complete.</string>
-    <string name="ButtonThreeToast">This will launch LIBRARY APP once it is complete.</string>
-    <string name="ButtonTwoToast">This will launch SCORES APP once it is complete.</string>
-    <string name="ButtonToast">This will launch SPOTIFY STREAMER once it is complete.</string>
+    <string name="VrumToast">This will launch VRUM once it is complete.</string>
+    <string name="ReaderToast">This will launch XYZ READER once it is complete.</string>
+    <string name="BiggerToast">This will launch BUILD IT BIGGER once it is complete.</string>
+    <string name="LibraryToast">This will launch LIBRARY APP once it is complete.</string>
+    <string name="ScoresToast">This will launch SCORES APP once it is complete.</string>
+    <string name="SpotifyToast">This will launch SPOTIFY STREAMER once it is complete.</string>
 </resources>

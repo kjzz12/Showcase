@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 public class AppsList extends AppCompatActivity {
@@ -14,66 +13,42 @@ public class AppsList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apps_list);
+    }
 
-        Button button = (Button)findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchSpotify(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.SpotifyToast,
+                Toast.LENGTH_SHORT).show();
+    }
 
-        Button button2 = (Button)findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonTwoToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchScores(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.ScoresToast,
+                Toast.LENGTH_SHORT).show();
+    }
 
-        Button button3 = (Button)findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonThreeToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchLibrary(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.LibraryToast,
+                Toast.LENGTH_SHORT).show();
+    }
 
-        Button button4 = (Button)findViewById(R.id.button4);
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonFourToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchBigger(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.BiggerToast,
+                Toast.LENGTH_SHORT).show();
+    }
 
-        Button button5 = (Button)findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonFiveToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchReader(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.ReaderToast,
+                Toast.LENGTH_SHORT).show();
+    }
 
-        Button button6 = (Button)findViewById(R.id.button6);
-        button6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        R.string.ButtonSixToast,
-                        Toast.LENGTH_SHORT).show();
-            }
-        });
+    public void launchVrum(View v) {
+        Toast.makeText(getApplicationContext(),
+                R.string.VrumToast,
+                Toast.LENGTH_SHORT).show();
     }
 
     @Override
